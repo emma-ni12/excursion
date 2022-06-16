@@ -1,9 +1,62 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    overflow-x:hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 h1 {
     color: white;
     font-size: 50px;
-    
+    width: 100%;
+    font-weight: normal;
+}
+
+a {
+    font-size: 16px;
+    color: aquamarine;
+    display: block;
+}
+
+video {
+    width: 400px;
+    aspect-ratio: auto;
+    align-self: center;
+    padding: 50px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+h3 {
+    font-size: 21px;
+    color: gray;
+}
+
+img {
+    align-self: center;
+}
+
+#smartphone-icon {
+    width: 30px;
+    padding: 15px;
+}
+
+#tent {
+    width: 900px;
+}
+
+#copyright {
+    text-align: right;
+    margin-right: 20px;
 }
